@@ -37,6 +37,7 @@ app.listen(3333, async () =>{
     console.log("connected at database")
   } catch (e) {
     console.error(e)
+    console.log('caiu no erro')
   }
   console.log(`server is running on port ${3333}`)
 })

@@ -12,8 +12,10 @@ const dataSource = new DataSource({
   logging: true,
   entities: [Person],
   subscribers: [],
-  migrations: [],
-
+  migrations: [
+    "./src/shared/typeorm/migrations/*.ts"
+  ],
+  
 
 })
 export {dataSource}
