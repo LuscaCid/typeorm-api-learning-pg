@@ -10,12 +10,14 @@ const dataSource = new DataSource({
   database: "postgres",
   synchronize: true,
   logging: true,
-  entities: [Person],
+  
   subscribers: [],
   migrations: [
     "./src/shared/typeorm/migrations/*.ts"
   ],
-  
+  migrationsTableName: "custom_migration_table",
+
+
 
 })
 export {dataSource}
