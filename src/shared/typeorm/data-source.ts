@@ -10,7 +10,7 @@ const dataSource = new DataSource({
   database: "postgres",
   synchronize: true,
   logging: true,
-  
+  entities : [Person],
   subscribers: [],
   migrations: [
     "./src/shared/typeorm/migrations/*.ts"

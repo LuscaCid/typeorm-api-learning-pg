@@ -2,8 +2,8 @@ import 'express-async-errors'
 import 'reflect-metadata'
 import express, {Request, Response, NextFunction} from 'express'
 import cors from 'cors'
-import routes from './routes/'
-import AppError from '../errors/AppError'
+import routes from './routes'
+import AppError from '@errors/AppError'
 import {dataSource} from "../../shared/typeorm/data-source"
 const app = express()
 
@@ -32,12 +32,13 @@ app.use((
 })
 
 app.listen(3333, async () =>{
-  try{
+  //if(true)throw new AppError("oshente")
+  /*try{
     await dataSource.initialize()
     console.log("connected at database")
   } catch (e) {
-    console.error(e)
+    console.error(e) 
     console.log('caiu no erro')
-  }
+  }*/
   console.log(`server is running on port ${3333}`)
 })

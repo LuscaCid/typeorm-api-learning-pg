@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only ./src/shared/http/server.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only ./src/shared/http/server.ts",
     "lint": "eslint --ext .ts",
-    "typeorm" : "ts-node-dev ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -24,6 +24,7 @@
     "express-async-errors": "^3.1.1",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.2.1",
+    "tsconfig-paths": "^4.2.0",
     "typeorm": "^0.3.19"
   }
 }
