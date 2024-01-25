@@ -154,6 +154,11 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/config@^3.3.3":
+  "integrity" "sha512-BB8DBAud88EgiAKlz8WQStzI771Kb6F3j4dioRJ4GD+tP4tzcZyMlz86aXuZT4s9hyesFORehMQE6eqtA5O+Vg=="
+  "resolved" "https://registry.npmjs.org/@types/config/-/config-3.3.3.tgz"
+  "version" "3.3.3"
+
 "@types/connect@*":
   "integrity" "sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug=="
   "resolved" "https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz"
@@ -167,6 +172,13 @@
   "version" "2.8.17"
   dependencies:
     "@types/node" "*"
+
+"@types/dotenv@^8.2.0":
+  "integrity" "sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw=="
+  "resolved" "https://registry.npmjs.org/@types/dotenv/-/dotenv-8.2.0.tgz"
+  "version" "8.2.0"
+  dependencies:
+    "dotenv" "*"
 
 "@types/express-serve-static-core@^4.17.33":
   "integrity" "sha512-OaJ7XLaelTgrvlZD8/aa0vvvxZdUmlCn6MtWeB7TkiKW70BQLc9XEPpDLPdbo52ZhXUCrznlWdCHWxJWtdyajA=="
@@ -598,6 +610,13 @@
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   "version" "0.0.1"
 
+"config@^3.3.10":
+  "integrity" "sha512-9Kl3LpQ6zj93KaqgfIMTcpwTpgozFOqNl/Dk7mjras1BgGIOlqxWkyIGeU1my+sRuskRYwrCATgCk1RjAnRPGA=="
+  "resolved" "https://registry.npmjs.org/config/-/config-3.3.10.tgz"
+  "version" "3.3.10"
+  dependencies:
+    "json5" "^2.2.3"
+
 "content-disposition@0.5.4":
   "integrity" "sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ=="
   "resolved" "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz"
@@ -704,7 +723,7 @@
   dependencies:
     "esutils" "^2.0.2"
 
-"dotenv@^16.0.3":
+"dotenv@*", "dotenv@^16.0.3", "dotenv@^16.4.1":
   "integrity" "sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ=="
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.4.1.tgz"
   "version" "16.4.1"
@@ -1256,7 +1275,7 @@
   "resolved" "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
   "version" "1.0.1"
 
-"json5@^2.2.2":
+"json5@^2.2.2", "json5@^2.2.3":
   "integrity" "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg=="
   "resolved" "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
   "version" "2.2.3"

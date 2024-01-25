@@ -33,12 +33,12 @@ app.use((
 app.get('/', (req : Request, res : Response) => res.status(200).send("tudo ok") )
 app.listen(3333, async () =>{
   //if(true)throw new AppError("oshente")
-  /*try{
+  try{
     await dataSource.initialize()
     console.log("connected at database")
   } catch (e) {
     console.error(e) 
     console.log('caiu no erro')
-  }*/
+  }
   console.log(`server is running on port ${3333}`)
 })
