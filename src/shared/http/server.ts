@@ -30,7 +30,7 @@ app.use((
     status : 500
   })
 })
-
+app.get('/', (req : Request, res : Response) => res.status(200).send("tudo ok") )
 app.listen(3333, async () =>{
   //if(true)throw new AppError("oshente")
   /*try{
